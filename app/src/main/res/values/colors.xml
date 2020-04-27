@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue400</color>
+    <color name="colorTextPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">#FAFBFC</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="dark300">#253858</color>
+    <color name="blue400">#0682C2</color>
+    <color name="red500">#C62E37</color>
+    <color name="homeFabGreen">#49D816</color>
+    <color name="homeFabOrange">#F99B57</color>
+    <color name="homeFabBlue">#55CEF5</color>
+    <color name="homeFabPurple">#DE99F7</color>
+    <color name="homeFabGrey">@color/colorGrey</color>
+    <color name="colorDivider">#F4F5F7</color>
+    <color name="colorTitle">#253858</color>
+    <color name="colorGrey">#8993A4</color>
+    <color name="light300">#EBECF0</color>
+    <color name="colorLightGrey">#A5ADBA</color>
+    <color name="colorWhite2">#FAFBFC</color>
+
+</resources>

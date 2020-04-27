@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.expandablerecyclerviewexample.ExpandableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expand_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/ll_item_ratib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/question_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTextPrimary"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:text="Question"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/image_view_collapse"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorTextPrimary"
+            android:src="@drawable/expandnew"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/answer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_textview"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/answer_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Answer"
+            android:textColor="@color/colorGrey"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</com.example.expandablerecyclerviewexample.ExpandableLayout>
