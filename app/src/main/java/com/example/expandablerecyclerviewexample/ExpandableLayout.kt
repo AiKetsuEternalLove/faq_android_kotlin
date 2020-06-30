@@ -10,7 +10,7 @@ import android.util.AttributeSet
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
-import kotlinx.android.synthetic.main.recyclerview_cell.view.*
+import kotlinx.android.synthetic.main.faqs_recyclerview.view.*
 
 /**
  * Created by SilenceDut.

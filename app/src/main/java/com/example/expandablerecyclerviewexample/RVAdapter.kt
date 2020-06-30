@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.recyclerview_cell.view.*
+import kotlinx.android.synthetic.main.faqs_recyclerview.view.*
 import java.util.*
 
 
@@ -19,7 +19,7 @@ class RVAdapter(private val itemsCells: ArrayList<DataModel>) :
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val v = LayoutInflater.from(parent.context).inflate(R.layout.recyclerview_cell, parent, false)
+        val v = LayoutInflater.from(parent.context).inflate(R.layout.faqs_recyclerview, parent, false)
         val vh = ViewHolder(v)
         context = parent.context
         return vh
